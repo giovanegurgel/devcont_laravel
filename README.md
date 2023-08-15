@@ -22,7 +22,7 @@ wsl --install -d Ubuntu
 sudo apt update && sudo apt upgrade -y
 ```
 
-4. Instalar o git e o wget
+4. Instalar o git e o curl
 
 ```bash
 sudo apt install git curl
