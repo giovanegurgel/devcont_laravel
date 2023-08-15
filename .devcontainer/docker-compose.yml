@@ -1,0 +1,16 @@
+version: '3'
+services:
+  laravel_server:
+    container_name: laravel_server
+    image: giovanegurgel/laravel_server
+    restart: always
+    ports:
+      - 8008:80
+    volumes:
+      - ../projeto:/var/www/html:delegated
+    networks:
+      - laravel_net
+
+networks:
+  laravel_net:
+    driver: bridge
