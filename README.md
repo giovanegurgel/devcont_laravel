@@ -52,7 +52,7 @@ cd projects
 git clone {link_do_repositório}
 ```
 
-9. Abrir o projeto no vscode. [extensão recomendada](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+9. Abrir o projeto no vscode. [extensão WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl), [extensão Contêiner](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ```bash
 cd {pasta_do_projeto}
