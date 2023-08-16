@@ -58,3 +58,13 @@ git clone {link_do_repositório}
 cd {pasta_do_projeto}
 code .
 ```
+
+10. Instale as extensões instaladas no Windows no WSL. Para isso vá para aba de extensões, depois click no ícone de nuvem localizado ao lado de 'WSL: UBUNTU - INSTALADO', selecione todas e click 'Ok'
+
+![Imagem mostrando o ícone de nuvem](/img/nuvem.png)
+
+11. Click em 'reabrir no Contêiner' que aparece no canto inferior direito
+
+![Imagem da janela de reabrir Contêiner](/img/reabrir_container.png)
+
+12. Repita o passo 10 para o contêiner
