@@ -31,6 +31,7 @@
 	// "shutdownAction": "none",
 
 	// Uncomment the next line to run commands after the container is created.
+	"postStartCommand": "chown -R webuser:webgroup /var/www/html",
 	"postCreateCommand": "chown -R webuser:webgroup /var/www/html",
 
 	// Configure tool-specific properties.
