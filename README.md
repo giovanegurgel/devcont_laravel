@@ -40,16 +40,20 @@ bash <(curl -sSL https://raw.githubusercontent.com/Zelnatal/devcont_laravel/main
 ## Começando
 
 7. Opcional: Criar uma pasta projects e acessar
+
 ```bash
 mkdir projects
 cd projects
 ```
+
 8. Clona o repositório
+
 ```bash
 git clone {link_do_repositório}
 ```
 
 9. Abrir o projeto no vscode. [extensão recomendada](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+
 ```bash
 cd {pasta_do_projeto}
 code .
