@@ -35,7 +35,7 @@ sudo apt install git curl
 6. Configurar o git
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/Zelnatal/devcont_laravel/main/configGit.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/giovanegurgel/devcont_laravel/main/configGit.sh)
 ```
 ## Começando
 
