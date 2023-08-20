@@ -1,17 +1,17 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://laravel.com/docs/10.x" target="_blank"><img  src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="320" alt="Laravel Logo"></a><a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a></div>
+<span style="display: flex; align-items: center;margin-right:10px;"><a href="https://laravel.com/docs/10.x" target="_blank"><img  src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="320" alt="Laravel Logo"></a><a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a></span>
 
-<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://livewire.laravel.com/docs/quickstart" target="_blank"><img style="margin-right:30px;" src="https://github.com/livewire/livewire/raw/main/art/readme_logo.png" width="270" alt="Livewire Logo"></a>    <a href="https://packagist.org/packages/livewire/livewire"><img src="https://poser.pugx.org/livewire/livewire/d/total.svg" alt="Total Downloads">
-    </a></div>
+<span style="display: flex; align-items: center;margin-right:10px;"><a href="https://livewire.laravel.com/docs/quickstart" target="_blank"><img style="margin-right:30px;" src="https://github.com/livewire/livewire/raw/main/art/readme_logo.png" width="270" alt="Livewire Logo"></a>    <a href="https://packagist.org/packages/livewire/livewire"><img src="https://poser.pugx.org/livewire/livewire/d/total.svg" alt="Total Downloads">
+    </a></span>
 
-<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.nginx.com/" target="_blank"><img style="margin-right:30px;"  src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" width="240" alt="Nginx Logo"></a><img src="https://img.shields.io/github/stars/nginx" alt="GitHub Stars"></div>
+<span style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.nginx.com/" target="_blank"><img style="margin-right:30px;"  src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" width="240" alt="Nginx Logo"></a><img src="https://img.shields.io/github/stars/nginx" alt="GitHub Stars"></span>
 
 
-<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://hub.docker.com/r/giovanegurgel/laravel_server" target="_blank"><img  src="https://geeksterminal.com/wp-content/uploads/2019/11/docker-logo-310x162.png" width="320" alt="Docker Logo"></a><img src="https://img.shields.io/docker/pulls/giovanegurgel/laravel_server" alt="Docker Pulls"></div>
+<span style="display: flex; align-items: center;margin-right:10px;"><a href="https://hub.docker.com/r/giovanegurgel/laravel_server" target="_blank"><img  src="https://geeksterminal.com/wp-content/uploads/2019/11/docker-logo-310x162.png" width="320" alt="Docker Logo"></a><img src="https://img.shields.io/docker/pulls/giovanegurgel/laravel_server" alt="Docker Pulls"></span>
 
-<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.phpmyadmin.net/" target="_blank"><img  src="https://www.phpmyadmin.net/static/images/logo.png?067b638aa2a2" width="160" alt="PhpMyAdmin Logo"> <img src="https://img.shields.io/github/stars/phpmyadmin" alt="GitHub Stars"></a></div>
+<span style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.phpmyadmin.net/" target="_blank"><img  src="https://www.phpmyadmin.net/static/images/logo.png?067b638aa2a2" width="160" alt="PhpMyAdmin Logo"> <img src="https://img.shields.io/github/stars/phpmyadmin" alt="GitHub Stars"></a></span>
 
-<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.mysql.com/" target="_blank"><img  src="https://vetores.org/d/mysql.svg" width="130" alt="MySQL Logo"></a><img src="https://img.shields.io/github/stars/mysql" alt="GitHub Stars"></a></div>
+<span style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.mysql.com/" target="_blank"><img  src="https://vetores.org/d/mysql.svg" width="130" alt="MySQL Logo"></a><img src="https://img.shields.io/github/stars/mysql" alt="GitHub Stars"></a></span>
 
 </div>
 
