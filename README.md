@@ -36,7 +36,7 @@
 
 ## 🛠️ Requisitos
 
-📥 Crie um projeto baseado neste template.
+📥 Crie um novo repositório baseado neste template.
 
 🐳 Verifique se instalou o [Docker](https://docs.docker.com/get-docker/).
 
