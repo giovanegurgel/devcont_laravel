@@ -21,7 +21,7 @@
     </tr>
 </table>
 
-# Visão Geral:
+# Visão Geral
 🌟 Este repositório oferece uma imagem de container de desenvolvimento pré-configurada, otimizada para construir aplicações web modernas com Laravel, Livewire e MySQL.
 
 🚀 Objetivo: Facilitar o desenvolvimento Laravel, Livewire e MySQL usando containers.
@@ -34,7 +34,7 @@
 
 ⚡ Início rápido: Elimine as complexidades de configuração e foque na codificação.
 
-## 🛠️ Requisitos:
+## 🛠️ Requisitos
 
 📥 Crie um projeto baseado neste template.
 
