@@ -1,5 +1,56 @@
-# devcont_laravel
-## Instalando o WSL
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://laravel.com/docs/10.x" target="_blank"><img  src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="320" alt="Laravel Logo"></a><a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a></div>
+
+<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://livewire.laravel.com/docs/quickstart" target="_blank"><img style="margin-right:30px;" src="https://github.com/livewire/livewire/raw/main/art/readme_logo.png" width="270" alt="Livewire Logo"></a>    <a href="https://packagist.org/packages/livewire/livewire"><img src="https://poser.pugx.org/livewire/livewire/d/total.svg" alt="Total Downloads">
+    </a></div>
+
+<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.nginx.com/" target="_blank"><img style="margin-right:30px;"  src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" width="240" alt="Nginx Logo"></a><img src="https://img.shields.io/github/stars/nginx" alt="GitHub Stars"></div>
+
+
+<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://hub.docker.com/r/giovanegurgel/laravel_server" target="_blank"><img  src="https://geeksterminal.com/wp-content/uploads/2019/11/docker-logo-310x162.png" width="320" alt="Docker Logo"></a><img src="https://img.shields.io/docker/pulls/giovanegurgel/laravel_server" alt="Docker Pulls"></div>
+
+<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.phpmyadmin.net/" target="_blank"><img  src="https://www.phpmyadmin.net/static/images/logo.png?067b638aa2a2" width="160" alt="PhpMyAdmin Logo"> <img src="https://img.shields.io/github/stars/phpmyadmin" alt="GitHub Stars"></a></div>
+
+<div style="display: flex; align-items: center;margin-right:10px;"><a href="https://www.mysql.com/" target="_blank"><img  src="https://vetores.org/d/mysql.svg" width="130" alt="MySQL Logo"></a><img src="https://img.shields.io/github/stars/mysql" alt="GitHub Stars"></a></div>
+
+</div>
+
+## Visão Geral:
+🌟 Este repositório oferece uma imagem de container de desenvolvimento pré-configurada, otimizada para construir aplicações web modernas com Laravel, Livewire e MySQL.
+
+🚀 Objetivo: Facilitar o desenvolvimento Laravel, Livewire e MySQL usando containers.
+
+🛠️ Ferramentas: Laravel, Livewire, Nginx, MySQL, PhpMyAdmin
+
+📦 Dev Container: Pule direto para o desenvolvimento com um container Docker pré-configurado para usar no VSCode.
+
+🚀 Framework Laravel: instalação pronta de projeto Laravel+Livewire.
+
+⚡ Início rápido: Elimine as complexidades de configuração e foque na codificação.
+
+## 🛠️ Requisitos:
+
+📥 Crie um projeto baseado neste template.
+
+🐳 Verifique se instalou o [Docker](https://docs.docker.com/get-docker/).
+
+💻 Verifique se instalou o [Git](https://git-scm.com/downloads).
+
+💻📝 Verifique se instalou o [VSCode](https://git-scm.com/downloads).
+
+📦 Verifique se instalou a extensão [Dev Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+
+🐧 Verifique se instalou a extensão [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) (Usuários Windows).
+
+## Como acessar sua aplicação
+
+🌐 Acesse seu projeto Laravel em http://localhost:8008 no navegador.
+
+🌐 Acesse o PhpMyAdmin em http://localhost:8010 no navegador.
+
+# Instalação no Windows
+
+## 🐧 Instalando o WSL
 
 1. Definir a versão para o WSL 2.
 
@@ -18,7 +69,7 @@ wsl --install -d Ubuntu
 ```powershell
 wsl -s Ubuntu
 ```
-## Configurando o Ubuntu no WSL
+## 🐧 Configurando o Ubuntu no WSL
 
 4. Atualizar
 
@@ -37,7 +88,7 @@ sudo apt install git curl
 ```bash
 bash <(curl -sSL https://raw.githubusercontent.com/giovanegurgel/devcont_laravel/main/configGit.sh)
 ```
-## Começando
+## 🟢 Começando
 
 7. Opcional: Criar uma pasta projects e acessar
 
@@ -52,7 +103,7 @@ cd projects
 git clone {link_do_repositório}
 ```
 
-9. Abrir o projeto no vscode. [extensão WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl), [extensão Contêiner](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+9. Abrir o projeto no vscode. [extensão WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl), [extensão Dev Contêiner](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ```bash
 cd {pasta_do_projeto}
@@ -68,3 +119,6 @@ code .
 ![Imagem da janela de reabrir Contêiner](/img/reabrir_container.png)
 
 12. Repita o passo 10 para o contêiner
+
+## 🤝 Contribuições
+Contribuições são mais do que bem-vindas! Mande pull requests com melhorias, correções ou ideias novas.
