@@ -1,6 +1,6 @@
 UserWindows=$(powershell.exe '$env:UserName' | tr -d '\r')
 if [ -f "/mnt/c/Users/$UserWindows/.gitconfig" ]; then
-    cp /mnt/c/Users/$UserWindows/.gitconfig ~/.gitconfig
+    cp /mnt/c/Users/"$UserWindows"/.gitconfig ~/.gitconfig
 else
     echo name:?
     read username
