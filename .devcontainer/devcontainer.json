@@ -28,12 +28,12 @@
 				"DEVSENSE.phptools-vscode",
 				"onecentlin.laravel-extension-pack",
 				"bradlc.vscode-tailwindcss",
-			        "pkief.material-icon-theme",
-			        "christian-kohler.path-intellisense",
-			        "adrianwilczynski.alpine-js-intellisense",
-			        "xabikos.javascriptsnippets",
-			        "mgmcdermott.vscode-language-babel",
-			        "bebo925.livewire-switcher"				
+				"pkief.material-icon-theme",
+				"christian-kohler.path-intellisense",
+				"adrianwilczynski.alpine-js-intellisense",
+				"xabikos.javascriptsnippets",
+				"mgmcdermott.vscode-language-babel",
+				"bebo925.livewire-switcher"				
 			]
 		}
     		
