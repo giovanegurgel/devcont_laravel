@@ -21,12 +21,16 @@
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
-	"extensions": [
+	"customizations": {
+    		"vscode": {
+      		"extensions": [
 		"ms-vscode-remote.vscode-remote-extensionpack",
 		"DEVSENSE.phptools-vscode",
 		"onecentlin.laravel-extension-pack",
 		"bradlc.vscode-tailwindcss"
-	]
+		]
+    		}
+  	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
