@@ -22,21 +22,15 @@
 	// "features": {},
 
 	"customizations": {
-    		"vscode": {
-      		"extensions": [
-		"ms-vscode-remote.vscode-remote-extensionpack",
-		"DEVSENSE.phptools-vscode",
-		"onecentlin.laravel-extension-pack",
-		"bradlc.vscode-tailwindcss"
-		]
-    		}
-  	},
-
-	"remote.extensionKind": {
-    		"ms-vscode-remote.vscode-remote-extensionpack": ["workspace"],
-		"DEVSENSE.phptools-vscode": ["workspace"],
-		"onecentlin.laravel-extension-pack": ["workspace"],
-		"bradlc.vscode-tailwindcss": ["workspace"]
+		"vscode": {
+			"extensions": [
+				"ms-vscode-remote.vscode-remote-extensionpack",
+				"DEVSENSE.phptools-vscode",
+				"onecentlin.laravel-extension-pack",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+    		
   	},
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
