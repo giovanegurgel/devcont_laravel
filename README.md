@@ -70,61 +70,50 @@ wsl --set-default-version 2
 wsl --install -d Ubuntu
 ```
 
-3. Definindo Ubuntu WSL como padrão
-
-```powershell
-wsl -s Ubuntu
-```
 ## 🐧 Configurando o Ubuntu no WSL
 
-4. Atualizar
+3. Instalar o git e o curl
 
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt install git curl -y
 ```
 
-5. Instalar o git e o curl
-
-```bash
-sudo apt install git curl
-```
-
-6. Configurar o git
+4. Configurar o git
 
 ```bash
 bash <(curl -sSL https://raw.githubusercontent.com/giovanegurgel/devcont_laravel/main/configGit.sh)
 ```
 ## 🟢 Começando
 
-7. Opcional: Criar uma pasta projects e acessar
+5. Opcional: Criar uma pasta projects e acessar
 
 ```bash
 mkdir projects
 cd projects
 ```
 
-8. Clona o repositório
+6. Clona o repositório
 
 ```bash
 git clone {link_do_repositório}
 ```
 
-9. Abrir o projeto no vscode. [extensão WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl), [extensão Dev Contêiner](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+7. Abrir o projeto no vscode. [extensão WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl), [extensão Dev Contêiner](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ```bash
 cd {pasta_do_projeto}
 code .
 ```
 
-10. Instale as extensões instaladas no Windows no WSL. Para isso vá para aba de extensões, depois click no ícone de nuvem localizado ao lado de 'WSL: UBUNTU - INSTALADO', selecione todas e click 'Ok'
+8. Algumas extensões serão instaladas automaticamente. Pode instalar outras normalmente ou obter as extensões já ativadas no seu VSCode. Para isso vá para aba de extensões, depois click no ícone de nuvem localizado ao lado de 'WSL: UBUNTU - INSTALADO', selecione todas e click 'Ok'
 
 ![Imagem mostrando o ícone de nuvem](/img/nuvem.png)
 
-11. Click em 'reabrir no Contêiner' que aparece no canto inferior direito
+9. Click em 'reabrir no Contêiner' que aparece no canto inferior direito
 
 ![Imagem da janela de reabrir Contêiner](/img/reabrir_container.png)
 
-12. Repita o passo 10 para o contêiner
+10. Repita o passo 8 para o contêiner
 
 ## 🤝 Contribuições
 Contribuições são mais do que bem-vindas! Mande pull requests com melhorias, correções ou ideias novas.
