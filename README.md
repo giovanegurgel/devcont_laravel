@@ -64,10 +64,10 @@
 wsl --set-default-version 2
 ```
 
-2. Instalar o Ubuntu no WSL. Será pedido o usuário e a senha
+2. Instalar o Ubuntu no WSL e definir como padrão. Será pedido o usuário e a senha.
 
 ```powershell
-wsl --install -d Ubuntu
+wsl --install -d Ubuntu; wsl -s Ubuntu
 ```
 
 ## 🐧 Configurando o Ubuntu no WSL
