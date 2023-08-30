@@ -88,8 +88,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/giovanegurgel/devcont_laravel
 5. Opcional: Criar uma pasta projects e acessar
 
 ```bash
-mkdir projects
-cd projects
+mkdir projects; cd projects
 ```
 
 6. Clona o repositório
