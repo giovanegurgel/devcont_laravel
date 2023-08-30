@@ -4,9 +4,9 @@ if [ -f "/mnt/c/Users/$UserWindows/.gitconfig" ]; then
 elif [ -f "/mnt/d/Users/$UserWindows/.gitconfig" ]; then
     cp /mnt/d/Users/"$UserWindows"/.gitconfig ~/.gitconfig
 else
-    echo "username (github)?"
+    echo username_github
     read username
-    echo "email (github)?"
+    echo email_github
     read useremail
     git config --global user.name $username
     git config --global user.email $useremail
