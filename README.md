@@ -55,6 +55,7 @@
 🌐 Acesse o PhpMyAdmin em http://localhost:8010 no navegador.
 
 # Instalação no Windows
+## 🐧 Instalando o WSL
 
 > <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/info.svg">
@@ -62,8 +63,6 @@
 > </picture><br>
 >
 > **Execute os passos 1 e 2 no Windows PorwerShell**
-
-## 🐧 Instalando o WSL
 
 1. Definir a versão para o WSL 2.
 
