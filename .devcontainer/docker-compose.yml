@@ -3,7 +3,7 @@ services:
   laravel_server:
     container_name: laravel_server
     image: giovanegurgel/laravel_server
-    restart: always
+    restart: unless-stopped
     ports:
       - 8008:80
     volumes:
@@ -14,7 +14,7 @@ services:
   mysql:
     container_name: mysql
     image: mysql:8.0-debian
-    restart: always
+    restart: unless-stopped
     volumes:
       - ../mysql:/var/lib/mysql
     ports:
@@ -31,7 +31,7 @@ services:
   phpmyadmin:
     container_name: phpmyadmin
     image: phpmyadmin:5.2.1-apache
-    restart: always
+    restart: unless-stopped
     ports:
       - 8010:80
     environment:
