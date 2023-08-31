@@ -56,6 +56,13 @@
 
 # Instalação no Windows
 
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/info.svg">
+>   <img alt="Info" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/info.svg">
+> </picture><br>
+>
+> **Execute os passos 1 e 2 no Windows PorwerShell**
+
 ## 🐧 Instalando o WSL
 
 1. Definir a versão para o WSL 2.
@@ -71,6 +78,13 @@ wsl --install -d Ubuntu; wsl -s Ubuntu
 ```
 
 ## 🐧 Configurando o Ubuntu no WSL
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/info.svg">
+>   <img alt="Info" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/info.svg">
+> </picture><br>
+>
+> **Execute os passos 3 até 7 no terminal do Ubuntu**
 
 3. Instalar o git e o curl
 
@@ -118,6 +132,13 @@ code .
 Caso o docker esteja consumindo muita memoria RAM, é possível limita o consumo configurando o wsl. [Mais informações](https://learn.microsoft.com/en-us/windows/wsl/wsl-config)
 
 O script abaixo tentará criar um arquivo .wslconfig na pasta do Usuário no Windows, configurado para limitar o a memoria RAM do wsl2 para 3GB. Possível mudar editando o arquivo.
+
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/info.svg">
+>   <img alt="Info" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/info.svg">
+> </picture><br>
+>
+> **Execute o comando abaixo no terminal do Ubuntu**
 
 ```bash
 bash <(curl -sSL https://raw.githubusercontent.com/giovanegurgel/devcont_laravel/main/limitWsl.sh)
