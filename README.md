@@ -129,7 +129,7 @@ code .
 10. Repita o passo 8 para o contêiner
 
 ## ✨ Dicas
-Caso o docker esteja consumindo muita memoria RAM, é possível limita o consumo configurando o wsl. [Mais informações](https://learn.microsoft.com/en-us/windows/wsl/wsl-config)
+Caso o docker esteja consumindo muita memoria RAM, é possível limitar o consumo configurando o wsl. [Mais informações](https://learn.microsoft.com/en-us/windows/wsl/wsl-config)
 
 O script abaixo tentará criar um arquivo .wslconfig na pasta do Usuário no Windows, configurado para limitar o a memoria RAM do wsl2 para 3GB. Possível mudar editando o arquivo.
 
