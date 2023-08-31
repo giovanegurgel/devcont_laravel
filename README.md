@@ -120,6 +120,7 @@ O script abaixo tentará criar um arquivo .wslconfig na pasta do Usuário no Win
 
 ```bash
 bash <(curl -sSL https://raw.githubusercontent.com/giovanegurgel/devcont_laravel/main/limitWsl.sh)
+```
 
 ## 🤝 Contribuições
 Contribuições são mais do que bem-vindas! Mande pull requests com melhorias, correções ou ideias novas.
