@@ -107,13 +107,13 @@ mkdir projects; cd projects
 6. Clona o repositório
 
 ```bash
-git clone {link_do_repositório}
+git clone link_do_repositório
 ```
 
 7. Abrir o projeto no vscode. [extensão WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl), [extensão Dev Contêiner](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ```bash
-cd {pasta_do_projeto}
+cd pasta_do_projeto
 code .
 ```
 
