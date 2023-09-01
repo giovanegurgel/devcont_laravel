@@ -18,7 +18,7 @@ services:
     volumes:
       - ../mysql:/var/lib/mysql
     ports:
-      - 3306:3306
+      - 3310:3306
     environment:
       TZ: 'America/Fortaleza'
       MYSQL_DATABASE: mysql_banco
@@ -40,7 +40,7 @@ services:
       PMA_PMADB: mysql_banco
       PMA_USER: root
       PMA_PASSWORD: mysql_user
-      PMA_PORT: 3306
+      PMA_PORT: 3310
     networks:
       - laravel_net
     depends_on:
