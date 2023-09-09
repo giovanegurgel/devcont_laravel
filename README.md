@@ -42,7 +42,7 @@
 
 💻 Verifique se instalou o [Git](https://git-scm.com/downloads).
 
-💻📝 Verifique se instalou o [VSCode](https://git-scm.com/downloads).
+💻📝 Verifique se instalou o [VSCode](https://code.visualstudio.com/download).
 
 📦 Verifique se instalou a extensão [Dev Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 
